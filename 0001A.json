@@ -1,0 +1,134 @@
+{
+  "exerciseID": "0001A",
+  "exerciseNameChi": "頸部: 向左側向右側 (幅度練習)",
+  "exerciseNameEng": "English Name",
+  "rulesChi": [
+    "動作提示：頭部打側，就好似膊頭不動情況下將耳朵貼近膊頭,將波點逐一掃清。",
+    "规则2"
+  ],
+  "rulesEng": [
+    "rule 1",
+    "rule 2"
+  ],
+  "scriptChi": [
+    "內容1",
+    "內容2"
+  ],
+  "scriptEng": [
+    "script 1",
+    "script 2"
+  ],
+  "exerciseType": "ROM",
+  "bodyParts": "headNeck",
+  "movement": "Side flexion",
+  "availableZones": [
+    {
+      "zoneName": "Zone_1A",
+      "gameType": "repsWithTimeLimit",
+      "totalScore": 20,
+      "subScore1": 10,
+      "subScore2": 10,
+      "repsWithTimeLimit": {
+        "exerciseTimeLimit": 60,
+        "totalNumberOfReps": 10
+      },
+      "holdPosition": {
+        "holdTimePerRep": 30,
+        "totalNumberOfReps": 5
+      },
+      "timeAttack": {
+        "exerciseTimeLimit": 120,
+        "totalNumberOfReps": 8
+      },
+      "timeLimitPerRep": {
+        "exerciseTimeLimit": 90,
+        "perRepTimeLimit": 10
+      },
+      "startSequence": "leftFirst",
+      "Detectiontype": "changeOfAngle",
+      "Angle": {
+        "min": 45,
+        "max": 90
+      },
+      "Length": {
+        "min": 10,
+        "max": 20
+      },
+      "levelUpCondition": {
+        "conditionType": "repsAndAngle",
+        "successfulRepsRequired": 15,
+        "Angle": {
+          "min": 60,
+          "max": 90
+        },
+        "Length": {
+          "min": 15,
+          "max": 25
+        }
+      },
+      "detectionPoints": [
+        {
+          "location": {
+            "X": 50,
+            "Y": 50
+          },
+          "bodyPart": "leftWrist"
+        }
+      ]
+    },
+    {
+      "zoneName": "Zone_1B",
+      "gameType": "repsWithTimeLimit",
+      "totalScore": 20,
+      "subScore1": 10,
+      "subScore2": 10,
+      "repsWithTimeLimit": {
+        "exerciseTimeLimit": 60,
+        "totalNumberOfReps": 8
+      },
+      "holdPosition": {
+        "holdTimePerRep": 20,
+        "totalNumberOfReps": 4
+      },
+      "timeAttack": {
+        "exerciseTimeLimit": 90,
+        "totalNumberOfReps": 6
+      },
+      "timeLimitPerRep": {
+        "exerciseTimeLimit": 60,
+        "perRepTimeLimit": 8
+      },
+      "startSequence": "leftFirst",
+      "Detectiontype": "changeOfAngle",
+      "Angle": {
+        "min": 30,
+        "max": 60
+      },
+      "Length": {
+        "min": 8,
+        "max": 16
+      },
+      "levelUpCondition": {
+        "conditionType": "repsAndLength",
+        "successfulRepsRequired": 12,
+        "Angle": {
+          "min": 45,
+          "max": 75
+        },
+        "Length": {
+          "min": 12,
+          "max": 22
+        }
+      },
+      "detectionPoints": [
+        {
+          "detectionPointLocation": {
+            "X": 50,
+            "Y": 50
+          },
+          "bodyParts": "leftWrist"
+        }
+      ]
+    }
+  ]
+}
